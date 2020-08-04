@@ -1,0 +1,32 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.App {
+    width: 640px;
+    margin: 30px auto 0;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    min-height: 640px;
+    max-height: 80vh;
+}
+
+#contents {
+    padding-top: 40px;
+    min-width: 1080px;
+    margin: 0 auto;
+}
